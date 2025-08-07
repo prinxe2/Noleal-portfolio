@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "CI=true npx vite build",
     "preview": "vite preview"
   },
   "type": "module",
